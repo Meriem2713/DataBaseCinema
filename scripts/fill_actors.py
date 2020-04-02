@@ -1,7 +1,7 @@
 print("start importing actors into the database")
 
-movies = open("../dataset/movies.csv", "r")
-sql_queries_actor_file = open("../fill_actors.sql", "w")
+movies = open("dataset/movies.csv", "r")
+sql_queries_actor_file = open("queries/insert_Data.sql", "a")
 
 query = "insert into ACTOR(name_actor) values"
 
